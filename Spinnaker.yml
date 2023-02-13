@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: kamailio
+spec:
+  containers:
+  - name: kamailio
+    image: pavan176/kamailio:v1
+    ports:
+    - containerPort: 5060
